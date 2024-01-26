@@ -2,7 +2,7 @@
 
 ## <center>This repository provides an initial structure for a professional Node application using TypeScript and Express, with MongoDB and Mongoose for the database. You can follow the following steps or directly clone this repository. </center>
 
-### <center>[If you clone this repository, make sure to run `npm install` to install all the dependencies and devDependencies]</center>
+### <center>[If you clone this repository, make sure to run `npm install` to install all the dependencies and devDependencies. Also you need to create a [.env file](#dotenv_section)]</center>
 
 ## 1. <u> Create the Project </u>
 
@@ -144,7 +144,10 @@ dist
 .env
 ```
 
+<a name="dotenv_section"></a>
+
 `.env`:
+
 ```text
 NODE_ENV=development
 PORT=5000
