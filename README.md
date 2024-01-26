@@ -63,7 +63,6 @@ Remember - these two properties above will be outside of __`"compilerOptions"`__
 
 ```bash
 npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
-npm init @eslint/config
 ```
 
 After the installation is complete -->
