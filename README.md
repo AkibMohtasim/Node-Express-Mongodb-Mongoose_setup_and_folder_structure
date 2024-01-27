@@ -49,12 +49,10 @@ Now open the `tsconfig.json` file and make these changes (use CTRL + F to find t
 also at the top -->
 
 ```json
-{
-  "include": ["src"],
-  "exclude": ["node_modules"]
 
+  "include": ["src"],
+  "exclude": ["node_modules"],
 ```
-}
 
 
 Remember - these two properties above will be outside of __`"compilerOptions"`__. That means there should be total three properties in the main json object - __`"include"`__, __`"exclude"`__ and __`"compilerOptions"`__.
